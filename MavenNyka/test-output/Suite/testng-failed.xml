@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="TestNgClass.NykkatestNg2">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="launchbrowsers"/>
+          <include name="closeBrowser"/>
+          <include name="luxe"/>
+          <include name="createpomobjects"/>
+          <include name="mouseoverluxe"/>
+          <include name="destuctor"/>
+        </methods>
+      </class> <!-- TestNgClass.NykkatestNg2 -->
+      <class name="TestNgClass.NykkatestNg">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="createpomobjects"/>
+          <include name="launchbrowsers"/>
+          <include name="launchApplication"/>
+          <include name="mouseoverluxe"/>
+          <include name="destuctor"/>
+          <include name="luxe"/>
+        </methods>
+      </class> <!-- TestNgClass.NykkatestNg -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="browser" value="FireFox"/>
+    <classes>
+      <class name="TestNgClass.NykkatestNg2">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="launchbrowsers"/>
+          <include name="closeBrowser"/>
+          <include name="luxe"/>
+          <include name="createpomobjects"/>
+          <include name="mouseoverluxe"/>
+          <include name="destuctor"/>
+        </methods>
+      </class> <!-- TestNgClass.NykkatestNg2 -->
+      <class name="TestNgClass.NykkatestNg">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="createpomobjects"/>
+          <include name="launchbrowsers"/>
+          <include name="launchApplication"/>
+          <include name="mouseoverluxe"/>
+          <include name="destuctor"/>
+          <include name="luxe"/>
+        </methods>
+      </class> <!-- TestNgClass.NykkatestNg -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

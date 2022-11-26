@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="12" passed="0" failed="0" skipped="8">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-03T12:09:06 IST" name="Suite" finished-at="2022-11-03T12:09:18 IST" duration-ms="12095">
+    <groups>
+    </groups>
+    <test started-at="2022-11-03T12:09:06 IST" name="Test" finished-at="2022-11-03T12:09:12 IST" duration-ms="6006">
+      <class name="TestNgClass.NykkatestNg2">
+        <test-method is-config="true" signature="launchbrowsers(java.lang.String)[pri:0, instance:TestNgClass.NykkatestNg2@4f6ee6e4]" started-at="2022-11-03T12:09:12 IST" name="launchbrowsers" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1667457552085" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchbrowsers.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchbrowsers.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowsers -->
+        <test-method is-config="true" signature="createpomobjects()[pri:0, instance:TestNgClass.NykkatestNg2@4f6ee6e4]" started-at="2022-11-03T12:09:12 IST" name="createpomobjects" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1667457552155" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createpomobjects -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNgClass.NykkatestNg2@4f6ee6e4]" started-at="2022-11-03T12:09:12 IST" name="launchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1667457552158" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="luxe()[pri:0, instance:TestNgClass.NykkatestNg2@4f6ee6e4]" started-at="2022-11-03T12:09:12 IST" name="luxe" finished-at="2022-11-03T12:09:12 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchbrowsers.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchbrowsers.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luxe -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNgClass.NykkatestNg2@4f6ee6e4]" started-at="2022-11-03T12:09:12 IST" name="launchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1667457552160" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="mouseoverluxe()[pri:0, instance:TestNgClass.NykkatestNg2@4f6ee6e4]" started-at="2022-11-03T12:09:12 IST" name="mouseoverluxe" finished-at="2022-11-03T12:09:12 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchbrowsers.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchbrowsers.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseoverluxe -->
+        <test-method is-config="true" signature="destuctor()[pri:0, instance:TestNgClass.NykkatestNg2@4f6ee6e4]" started-at="2022-11-03T12:09:12 IST" name="destuctor" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1667457552166" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destuctor -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNgClass.NykkatestNg2@4f6ee6e4]" started-at="2022-11-03T12:09:12 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1667457552172" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestNgClass.NykkatestNg2 -->
+      <class name="TestNgClass.NykkatestNg">
+        <test-method is-config="true" signature="launchbrowsers()[pri:0, instance:TestNgClass.NykkatestNg@44ebcd03]" started-at="2022-11-03T12:09:06 IST" name="launchbrowsers" finished-at="2022-11-03T12:09:12 IST" duration-ms="5910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowsers -->
+        <test-method is-config="true" signature="createpomobjects()[pri:0, instance:TestNgClass.NykkatestNg@44ebcd03]" started-at="2022-11-03T12:09:12 IST" name="createpomobjects" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1667457552108" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createpomobjects -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNgClass.NykkatestNg@44ebcd03]" started-at="2022-11-03T12:09:12 IST" name="launchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1667457552130" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="luxe()[pri:0, instance:TestNgClass.NykkatestNg@44ebcd03]" started-at="2022-11-03T12:09:12 IST" name="luxe" finished-at="2022-11-03T12:09:12 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchbrowsers.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchbrowsers.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luxe -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNgClass.NykkatestNg@44ebcd03]" started-at="2022-11-03T12:09:12 IST" name="launchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1667457552140" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="mouseoverluxe()[pri:0, instance:TestNgClass.NykkatestNg@44ebcd03]" started-at="2022-11-03T12:09:12 IST" name="mouseoverluxe" finished-at="2022-11-03T12:09:12 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchbrowsers.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchbrowsers.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseoverluxe -->
+        <test-method is-config="true" signature="destuctor()[pri:0, instance:TestNgClass.NykkatestNg@44ebcd03]" started-at="2022-11-03T12:09:12 IST" name="destuctor" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1667457552144" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destuctor -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNgClass.NykkatestNg@44ebcd03]" started-at="2022-11-03T12:09:12 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1667457552170" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestNgClass.NykkatestNg -->
+    </test> <!-- Test -->
+    <test started-at="2022-11-03T12:09:12 IST" name="Test1" finished-at="2022-11-03T12:09:18 IST" duration-ms="6035">
+      <class name="TestNgClass.NykkatestNg2">
+        <test-method is-config="true" signature="launchbrowsers(java.lang.String)[pri:0, instance:TestNgClass.NykkatestNg2@67c27493]" started-at="2022-11-03T12:09:18 IST" name="launchbrowsers" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1667457558202" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchbrowsers.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchbrowsers.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowsers -->
+        <test-method is-config="true" signature="createpomobjects()[pri:0, instance:TestNgClass.NykkatestNg2@67c27493]" started-at="2022-11-03T12:09:18 IST" name="createpomobjects" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1667457558237" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createpomobjects -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNgClass.NykkatestNg2@67c27493]" started-at="2022-11-03T12:09:18 IST" name="launchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1667457558241" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="luxe()[pri:0, instance:TestNgClass.NykkatestNg2@67c27493]" started-at="2022-11-03T12:09:18 IST" name="luxe" finished-at="2022-11-03T12:09:18 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchbrowsers.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchbrowsers.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luxe -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNgClass.NykkatestNg2@67c27493]" started-at="2022-11-03T12:09:18 IST" name="launchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1667457558250" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="mouseoverluxe()[pri:0, instance:TestNgClass.NykkatestNg2@67c27493]" started-at="2022-11-03T12:09:18 IST" name="mouseoverluxe" finished-at="2022-11-03T12:09:18 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchbrowsers.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchbrowsers.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseoverluxe -->
+        <test-method is-config="true" signature="destuctor()[pri:0, instance:TestNgClass.NykkatestNg2@67c27493]" started-at="2022-11-03T12:09:18 IST" name="destuctor" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1667457558254" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destuctor -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNgClass.NykkatestNg2@67c27493]" started-at="2022-11-03T12:09:18 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1667457558258" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestNgClass.NykkatestNg2 -->
+      <class name="TestNgClass.NykkatestNg">
+        <test-method is-config="true" signature="launchbrowsers()[pri:0, instance:TestNgClass.NykkatestNg@77fbd92c]" started-at="2022-11-03T12:09:12 IST" name="launchbrowsers" finished-at="2022-11-03T12:09:18 IST" duration-ms="5973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowsers -->
+        <test-method is-config="true" signature="createpomobjects()[pri:0, instance:TestNgClass.NykkatestNg@77fbd92c]" started-at="2022-11-03T12:09:18 IST" name="createpomobjects" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1667457558208" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createpomobjects -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNgClass.NykkatestNg@77fbd92c]" started-at="2022-11-03T12:09:18 IST" name="launchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1667457558217" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="luxe()[pri:0, instance:TestNgClass.NykkatestNg@77fbd92c]" started-at="2022-11-03T12:09:18 IST" name="luxe" finished-at="2022-11-03T12:09:18 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchbrowsers.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchbrowsers.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luxe -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNgClass.NykkatestNg@77fbd92c]" started-at="2022-11-03T12:09:18 IST" name="launchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1667457558225" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="mouseoverluxe()[pri:0, instance:TestNgClass.NykkatestNg@77fbd92c]" started-at="2022-11-03T12:09:18 IST" name="mouseoverluxe" finished-at="2022-11-03T12:09:18 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchbrowsers.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchbrowsers.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseoverluxe -->
+        <test-method is-config="true" signature="destuctor()[pri:0, instance:TestNgClass.NykkatestNg@77fbd92c]" started-at="2022-11-03T12:09:18 IST" name="destuctor" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1667457558234" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destuctor -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNgClass.NykkatestNg@77fbd92c]" started-at="2022-11-03T12:09:18 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1667457558257" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestNgClass.NykkatestNg -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
